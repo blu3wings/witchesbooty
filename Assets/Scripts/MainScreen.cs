@@ -7,20 +7,28 @@ public class MainScreen : MonoBehaviour
     private RaycastHit2D _2dHit;
 
     public GameObject comicPrefab;
+	public GameObject mainMenu;
     public AudioSource audio;
 
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            _2dHit = Physics2D.Raycast(_ray.origin, _ray.direction, Mathf.Infinity, 1 << LayerMask.NameToLayer("platform"));
-            if (_2dHit != null && _2dHit.collider != null)
-            {
-                audio.Play();
-                comicPrefab.SetActive(true);
-                gameObject.SetActive(false);
-            }
-        }
-    }
+//    private void Update()
+//    {
+//        if (Input.GetMouseButtonDown(0))
+//        {
+//            _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+//            _2dHit = Physics2D.Raycast(_ray.origin, _ray.direction, Mathf.Infinity, 1 << LayerMask.NameToLayer("platform"));
+//            if (_2dHit != null && _2dHit.collider != null)
+//            {
+//                audio.Play();
+//                comicPrefab.SetActive(true);
+//                gameObject.SetActive(false);
+//            }
+//        }
+//    }
+
+	public void onMainClicked()
+	{
+		audio.Play();
+		comicPrefab.SetActive(true);
+		mainMenu.SetActive(false);
+	}
 }
