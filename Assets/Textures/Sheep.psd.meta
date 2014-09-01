@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 39eaa06bbdf32f04aa3f90c941f2b3f3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sheep
+    21300002: Sheep_0
+    21300004: Sheep_1
+    21300006: Sheep_2
+    21300008: Sheep_3
+    21300010: Sheep_4
+    21300012: Sheep_5
+    21300014: Sheep_6
+    21300016: Sheep_7
+    21300018: Sheep_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sheep_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 192
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheep_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 381
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheep_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 467
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheep_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 467
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheep_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 449
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheep_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 449
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheep_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 396
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheep_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 336
+        width: 83
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheep_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 346
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
